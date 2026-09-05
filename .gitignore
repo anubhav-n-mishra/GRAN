@@ -1,0 +1,23 @@
+# Build output
+*.o
+*.so
+*.ll
+*.s
+gran
+output.c
+test
+testprog
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Scratch
+.trash/
+test.c

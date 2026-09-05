@@ -1,11 +1,15 @@
--> A simple hello world program in Gran
+// Hello world, and the basics of Gran.
 
-string message = "Hello, World!";
+var message = "Hello, World!";
 screenit message;
 
--> Taking user input
-intake "Enter your name: ";
-string name;
-intake name;
+var x = 10;
+var y = 32;
+screenit "x + y =";
+screenit x + y;
 
-screenit "Welcome, " + name + "!"; 
+if (x < y) {
+    screenit "x is smaller";
+} else {
+    screenit "y is smaller";
+}
